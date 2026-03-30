@@ -1,0 +1,23 @@
+title: USA 2.5
+description: A shared blueprint for improving how the country works.
+baseurl: ""
+url: ""
+markdown: kramdown
+permalink: pretty
+
+collections:
+  sections:
+    output: true
+    permalink: /sections/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "sections"
+    values:
+      layout: section
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

@@ -1,0 +1,21 @@
+site_name: USA 2.5
+tagline: A practical upgrade to how America works.
+hero_text: A shared blueprint for fairer elections, less corruption, stronger accountability, wider prosperity, and a more functional republic.
+primary_cta:
+  label: Explore the platform
+  href: "#platform"
+secondary_cta:
+  label: Stay updated
+  href: "#get-updates"
+orientation: Not a party. Not a candidate. A shared blueprint for improving how the country works.
+destination:
+  - Government that answers to the public.
+  - Elections people can trust.
+  - Power constrained by law and transparency.
+  - An economy where ordinary people can actually build stable lives.
+  - A country that acts with competence at home and restraint abroad.
+cta:
+  heading: Stay in the loop
+  text: Get updates as the platform expands, section pages go live, and new drafts are published.
+  button_label: Join the email list
+  form_note: Replace this block later with your embedded email signup form.

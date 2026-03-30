@@ -1,0 +1,12 @@
+<section class="hero container">
+  <div class="hero-copy">
+    <p class="eyebrow">250 years on</p>
+    <h1>{{ site.data.homepage.site_name }}</h1>
+    <p class="tagline">{{ site.data.homepage.tagline }}</p>
+    <p class="hero-text">{{ site.data.homepage.hero_text }}</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ site.data.homepage.primary_cta.href | relative_url }}">{{ site.data.homepage.primary_cta.label }}</a>
+      <a class="button button-secondary" href="{{ site.data.homepage.secondary_cta.href | relative_url }}">{{ site.data.homepage.secondary_cta.label }}</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,35 @@
+<article class="section-card" id="{{ include.section.slug }}">
+  <details class="section-details">
+    <summary>
+      <div>
+        <h3>{{ include.section.title }}</h3>
+        <p>{{ include.section.short }}</p>
+      </div>
+      <span class="summary-indicator" aria-hidden="true">+</span>
+    </summary>
+
+    <div class="section-body">
+      {% assign tier_order = "immediate,legislative,structural" | split: "," %}
+      {% for tier_name in tier_order %}
+        {% assign items = include.section.tiers[tier_name] %}
+        {% if items and items.size > 0 %}
+          <section class="tier-group">
+            <h4>{{ tier_name | capitalize }}</h4>
+            <div class="policy-list">
+              {% for item in items %}
+                <details class="policy-item">
+                  <summary>{{ item.title }}</summary>
+                  <p>{{ item.summary }}</p>
+                </details>
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+      {% endfor %}
+
+      <p class="read-more-wrap">
+        <a class="read-more" href="{{ include.section.url | relative_url }}">Read more</a>
+      </p>
+    </div>
+  </details>
+</article>
