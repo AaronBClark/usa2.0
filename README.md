@@ -1,4 +1,4 @@
-# USA 2.5 - Jekyll Starter
+# USA 2.0 - Jekyll Starter
 
 A minimal Jekyll starter for a scan-first, expandable single-page homepage with future-ready section pages.
 

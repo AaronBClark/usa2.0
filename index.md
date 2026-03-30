@@ -1,6 +1,6 @@
 ---
 layout: default
-title: USA 2.5
+title: USA 2.0
 ---
 
 {% include hero.html %}
