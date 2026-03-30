@@ -198,6 +198,9 @@ h4 {
   color: var(--muted);
   max-width: 72ch;
 }
+.section-details > summary:hover {
+  background: rgba(255,255,255,0.02);
+}
 .summary-indicator {
   font-size: 1.5rem;
   line-height: 1;
@@ -211,23 +214,45 @@ details[open] > summary .summary-indicator {
   padding: 0 1.25rem 1.25rem;
   display: grid;
   gap: 1rem;
+  background: rgba(255,255,255,0.015);
 }
 .tier-group {
-  padding-top: 0.2rem;
+  padding: 1rem;
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 16px;
+}
+.tier-group h4 {
+  display: inline-block;
+  padding: 0.35rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.06);
 }
 .policy-list {
   display: grid;
   gap: 0.75rem;
-  margin-top: 0.75rem;
+  margin-top: 0.85rem;
 }
 .policy-item {
-  border: 1px solid var(--line);
+  border: 1px solid #3b4354;
   border-radius: 14px;
-  background: var(--panel);
+  background: var(--panel-2);
+  overflow: hidden;
+  transition: border-color 0.18s ease, background 0.18s ease, transform 0.18s ease;
+}
+.policy-item:hover {
+  border-color: #58627a;
+  background: #252c39;
 }
 .policy-item summary {
   padding: 0.95rem 1rem;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
 }
 .policy-item p {
   margin: 0;
@@ -240,6 +265,35 @@ details[open] > summary .summary-indicator {
 .policy-item.standalone h3 {
   font-size: 1.1rem;
   margin-bottom: 0.45rem;
+}
+.policy-item__title {
+  display: block;
+  line-height: 1.35;
+}
+
+.policy-item__indicator {
+  font-size: 1.15rem;
+  line-height: 1;
+  color: var(--muted);
+  flex-shrink: 0;
+  transition: transform 0.18s ease, color 0.18s ease;
+}
+
+.policy-item summary:hover .policy-item__indicator {
+  color: var(--accent-2);
+}
+.policy-item[open] .policy-item__indicator {
+  transform: rotate(45deg);
+  color: var(--accent-2);
+}
+.policy-item__body {
+  border-top: 1px solid rgba(255,255,255,0.07);
+  background: rgba(0,0,0,0.12);
+  padding: 0.95rem 1rem 1rem;
+}
+.policy-item__body p {
+  margin: 0;
+  color: var(--muted);
 }
 .read-more-wrap {
   margin: 0.3rem 0 0;

@@ -18,10 +18,15 @@ layout: default
           <h2>{{ tier_name | capitalize }}</h2>
           <div class="policy-list">
             {% for item in items %}
-              <article class="policy-item standalone">
-                <h3>{{ item.title }}</h3>
-                <p>{{ item.summary }}</p>
-              </article>
+              <details class="policy-item">
+                <summary>
+                  <span class="policy-item__title">{{ item.title }}</span>
+                  <span class="policy-item__indicator" aria-hidden="true">+</span>
+                </summary>
+                <div class="policy-item__body">
+                  <p>{{ item.summary }}</p>
+                </div>
+              </details>
             {% endfor %}
           </div>
         </section>
