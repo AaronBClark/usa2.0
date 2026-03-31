@@ -1,7 +1,6 @@
 site_name: USA 2.0
-tagline: A practical upgrade to how America works.
-hero_text: A shared blueprint for fairer elections, less corruption, stronger accountability, wider prosperity, and a more functional republic.
-primary_cta:
+tagline: A shared blueprint for a better United States.
+hero_text: Fix the System -> Reduce Corruption -> End Wars -> Restore Trust -> Enable Cooperation
   label: Explore the platform
   href: "#platform"
 secondary_cta:
@@ -9,13 +8,20 @@ secondary_cta:
   href: "#get-updates"
 orientation: Not a party. Not a candidate. A shared blueprint for improving how the country works.
 destination:
-  - Government that answers to the public.
-  - Elections people can trust.
-  - Power constrained by law and transparency.
-  - An economy where ordinary people can actually build stable lives.
-  - A country that acts with competence at home and restraint abroad.
+  A country where power is constrained, corruption is difficult, and the people share in the nation’s success.
+
+  - A government that answers to the people, not the other way around.
+  - Elections people can trust, where every voice carries real weight.
+  - Power constrained by law and transparency, not by norms and good faith.
+  - An economy where ordinary people can build stable lives and share in growth.
+  - A society where Americans align on what matters without requiring uniformity.
+  - Less manipulation, less noise, and a clearer view of reality beyond algorithms.
+  - A nation that leads by example instead of force, with strength in stability.
+  - A country that acts with empathy and restraint at home and abroad.
 cta:
   heading: Stay in the loop
   text: Get updates as the platform expands, section pages go live, and new drafts are published.
   button_label: Join the email list
   form_note: Replace this block later with your embedded email signup form.
+
+

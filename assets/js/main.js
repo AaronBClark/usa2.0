@@ -89,3 +89,16 @@ function closeAccordion(details, content) {
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".js-accordion").forEach(setupAnimatedAccordion);
 });
+
+document.querySelectorAll(".policy-item").forEach((item) => {
+  item.addEventListener("toggle", () => {
+    if (!item.open) return;
+
+    const group = item.closest(".policy-list");
+    if (!group) return;
+
+    group.querySelectorAll(".policy-item").forEach((sibling) => {
+      if (sibling !== item) sibling.open = false;
+    });
+  });
+});
