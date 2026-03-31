@@ -9,13 +9,13 @@ title: USA 2.0
   <p>{{ site.data.homepage.orientation }}</p>
 </section>
 
-<section class="destination container" id="destination">
+<section class="vision container" id="vision">
   <div class="section-intro">
     <h2>The Vision</h2>
     <p>A country where power is constrained, corruption is difficult, and the people share in the nation’s success.</p>
   </div>
-  <ul class="destination-list">
-    {% for item in site.data.homepage.destination %}
+  <ul class="vision-list">
+    {% for item in site.data.homepage.vision %}
       <li>{{ item }}</li>
     {% endfor %}
   </ul>

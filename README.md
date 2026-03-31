@@ -18,7 +18,7 @@ A minimal Jekyll starter for a scan-first, expandable single-page homepage with 
 - `_sections/` - main section content, also outputs standalone pages
 - `_includes/` - reusable homepage components
 - `_layouts/` - site layouts
-- `_data/homepage.yml` - hero, destination, and CTA content
+- `_data/homepage.yml` - hero, vision, and CTA content
 - `assets/` - CSS and JS
 
 ## Content workflow
