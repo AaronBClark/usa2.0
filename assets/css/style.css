@@ -108,8 +108,7 @@ a {
 .orientation p {
   margin: 0;
   padding: 1rem 1.1rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
+  border: none;
   display: inline-block;
   background: rgba(255, 255, 255, 0.02);
 }
