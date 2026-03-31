@@ -102,15 +102,18 @@ a {
 }
 
 .orientation {
-  padding: 1.2rem 0 0;
+  padding: 1.5rem 0 0;
 }
 
 .orientation p {
   margin: 0;
-  padding: 1rem 1.1rem;
-  border: none;
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.02);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  display: block;
+  background: transparent;
+  color: var(--muted);
+  max-width: 60ch;
 }
 
 /* Typography */
