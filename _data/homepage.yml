@@ -1,13 +1,13 @@
 site_name: USA 2.0
-tagline: A shared blueprint for a better United States.
-hero_text: A shared blueprint for fairer elections, less corruption, stronger accountability, wider prosperity, and a more functional republic.
+tagline: A shared blueprint for a better tomorrow.
+hero_text: Fix the System -> Reduce Corruption -> End Wars -> Restore Trust
 primary_cta:
   label: Explore the platform
   href: "#platform"
 secondary_cta:
   label: Stay updated
   href: "#get-updates"
-orientation: Fix the System -> Reduce Corruption -> End Wars -> Restore Trust -> Enable Cooperation
+orientation: A fresh slate for a new generation of Americans to reimagine our country and build a better future together.
 destination:
   - A government that answers to the people, not the other way around.
   - Elections people can trust, where every voice carries real weight.
