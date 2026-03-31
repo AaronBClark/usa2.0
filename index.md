@@ -5,10 +5,6 @@ title: USA 2.0
 
 {% include hero.html %}
 
-<section class="orientation container">
-  <p>{{ site.data.homepage.orientation }}</p>
-</section>
-
 <section class="vision" id="vision">
   <div class="container vision-inner">
     <div class="section-intro vision-intro">
