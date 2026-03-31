@@ -11,7 +11,7 @@ title: USA 2.0
 
 <section class="destination container" id="destination">
   <div class="section-intro">
-    <h2>The vision</h2>
+    <h2>The Vision</h2>
     <p>A country where power is constrained, corruption is difficult, and the people share in the nation’s success.</p>
   </div>
   <ul class="destination-list">
@@ -23,7 +23,7 @@ title: USA 2.0
 
 <section class="platform container" id="platform">
   <div class="section-intro">
-    <h2>The platform</h2>
+    <h2>The Platform</h2>
     <p>Scan the headers for the big picture. Open sections for immediate, legislative, and structural priorities.</p>
   </div>
 
