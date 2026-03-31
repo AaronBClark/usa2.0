@@ -6,10 +6,8 @@ hero_text: Fix the System -> Reduce Corruption -> End Wars -> Restore Trust -> E
 secondary_cta:
   label: Stay updated
   href: "#get-updates"
-orientation: Not a party. Not a candidate. A shared blueprint for improving how the country works.
+orientation: Fix the system → reduce corruption → end wars → restore trust → enable cooperation
 destination:
-  A country where power is constrained, corruption is difficult, and the people share in the nation’s success.
-
   - A government that answers to the people, not the other way around.
   - Elections people can trust, where every voice carries real weight.
   - Power constrained by law and transparency, not by norms and good faith.
