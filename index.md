@@ -11,9 +11,8 @@ title: USA 2.0
 
 <section class="destination container" id="destination">
   <div class="section-intro">
-    <h2>The destination</h2>
-    <p>A practical upgrade to preserve and strengthen the republic for all.</p>
-    <p>A vision for a country that works - and brings people back together.</p>
+    <h2>The vision</h2>
+    <p>A country where power is constrained, corruption is difficult, and the people share in the nation’s success.</p>
   </div>
   <ul class="destination-list">
     {% for item in site.data.homepage.destination %}
